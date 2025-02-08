@@ -13,7 +13,9 @@ const App = () => {
     <DisplayFunction/>
     <h1 className="text-center mt-5">Using Class Component</h1>
     <ClassProps/> */}
-    <RenderApi/>
+    {/* <RenderApi/> */}
+    <Counter/>
+    <ClassCounter/>
 
   
 
