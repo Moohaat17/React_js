@@ -1,4 +1,5 @@
 import ClassCounter from "./classComponent/ClassCounter"
+import OnClickEvents from "./Events/OnClickEvents"
 import ClassProps from "./Explore/Classprops"
 import DisplayFunction from "./Explore/FunctionDisplay"
 import Counter from "./Hooks/Counter"
@@ -13,9 +14,10 @@ const App = () => {
     <DisplayFunction/>
     <h1 className="text-center mt-5">Using Class Component</h1>
     <ClassProps/> */}
-    {/* <RenderApi/> */}
-    <Counter/>
-    <ClassCounter/>
+    <RenderApi/>
+    {/* <Counter/>
+    <ClassCounter/> */}
+    <OnClickEvents/>
 
   
 
